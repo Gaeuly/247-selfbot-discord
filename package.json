@@ -1,0 +1,16 @@
+{
+  "name": "discord-selfbot",
+  "version": "1.0.0",
+  "description": "Selfbot untuk join VC 24/7 dan set activity.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "discord.js-selfbot-v13": "^3.1.4",
+    "libsodium-wrappers": "^0.7.13"
+  }
+}
