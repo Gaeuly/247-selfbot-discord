@@ -61,9 +61,9 @@ function setPlayingActivity() {
                 start: Date.now()
             },
             assets: {
-                large_image: 'vscode_icon',
+                large_image: 'https://i.imgur.com/UksaRTx.png',
                 large_text: 'Visual Studio Code',
-                small_image: 'angular_icon',
+                small_image: 'https://i.imgur.com/bpL0ItM.png',
                 small_text: 'Angular'
             }
         });
