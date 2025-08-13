@@ -21,7 +21,7 @@ const client = new Discord.Client({ checkUpdate: false });
 
 // --- Fungsi Utama Saat Bot Online ---
 client.on('ready', async () => {
-    console.log(`Berhasil login sebagai ${client.user.tag}!`);
+ //   console.log(`Berhasil login sebagai ${client.user.tag}!`);
 
     // 1. Mengatur Rich Presence yang baru
     setStaticRichPresence();
@@ -48,7 +48,7 @@ client.on('voiceStateUpdate', async (oldState, newState) => {
  * Mengatur status Rich Presence (PLAYING) yang statis menggunakan metode builder.
  */
 function setStaticRichPresence() {
-    console.log("Mencoba mengatur Rich Presence...");
+  //  console.log("Mencoba mengatur Rich Presence...");
     try {
         // Menggunakan builder RichPresence dari skrip keduamu
         const rpc = new Discord.RichPresence(client)
@@ -69,7 +69,7 @@ function setStaticRichPresence() {
             .addButton('Portfolio', 'https://gaeuly.my.id/');
 
         client.user.setActivity(rpc);
-        console.log('Berhasil mengatur Rich Presence activity.');
+     //   console.log('Berhasil mengatur Rich Presence activity.');
     } catch (error) {
         console.error("Gagal mengatur Rich Presence:", error);
     }
@@ -99,7 +99,7 @@ async function joinVC() {
             selfDeaf: false,
             selfMute: true
         });
-        console.log("Berhasil bergabung ke voice channel!");
+     //   console.log("Berhasil bergabung ke voice channel!");
     } catch (error) {
         console.error("Gagal bergabung ke voice channel:", error);
     }
