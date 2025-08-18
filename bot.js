@@ -60,7 +60,7 @@ async function joinVC() {
             guildId: guild.id,
             adapterCreator: guild.voiceAdapterCreator,
             selfDeaf: false,
-            selfMute: true
+            selfMute: false
         });
     } catch (error) {
         console.error("Gagal bergabung ke voice channel:", error);
