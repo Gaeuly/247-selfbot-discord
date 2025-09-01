@@ -4,12 +4,12 @@ module.exports = {
 
     Guild: "1052115524273836176",
 
-    Channel: "1411869146760745120",
+    Channel: "1403083119464157224",
 
     // Enable/disable fitur
 
     enableRichPresence: true,
 
-    enableVoiceJoin: false,
+    enableVoiceJoin: true,
 
 };
