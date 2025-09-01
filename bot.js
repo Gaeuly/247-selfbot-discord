@@ -98,11 +98,11 @@ function setStaticRichPresence() {
 
             .setStartTimestamp(Date.now())
 
-            .setAssetsLargeImage('https://i.imgur.com/LrROxNP.gif')
+            .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1143454887204634676/1411873795987472425/70c13819595845e79d953cf41cb7dea9.gif?ex=68b63d70&is=68b4ebf0&hm=ac9ae0277718a284fe15de3703846799db70d8776b7ba918761194b6f23ff5a6&')
 
             .setAssetsLargeText('Coding is fun!')
 
-            .setAssetsSmallImage('https://i.imgur.com/AswzxJ8.jpeg')
+            .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1143454887204634676/1411873823703171102/eb7e0fab3f96dd0b7d5faf6237235330.jpg?ex=68b63d76&is=68b4ebf6&hm=7ac649c0effa4a002696f95339dc5ac6096b1324b1fb952802b8f5d7d13ec008&')
 
             .setAssetsSmallText('TypeScript')
 
