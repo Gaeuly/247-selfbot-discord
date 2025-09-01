@@ -90,25 +90,25 @@ function setStaticRichPresence() {
 
             .setType('PLAYING')
 
-            .setName('Chess.com')
+            .setName('Sleeping')
 
-            .setDetails('gaeulychess')
+            .setDetails('In the bed')
 
-            .setState('Ello 2521')
+            .setState('')
 
             .setStartTimestamp(Date.now())
 
-            .setAssetsLargeImage('https://cdn.discordapp.com/attachments/1143454887204634676/1407732206436220968/download.png?ex=68a72c48&is=68a5dac8&hm=0db3fc7e24f00f16b25aafa158ed40c0c2a55dd660a68a16148e996e7336bd49&')
+            .setAssetsLargeImage('https://i.imgur.com/LrROxNP.gif')
 
             .setAssetsLargeText('Coding is fun!')
 
-            .setAssetsSmallImage('https://cdn.discordapp.com/attachments/1143454887204634676/1407732252649197629/05f71305f0055b150662ca3df401da48.jpg?ex=68a72c53&is=68a5dad3&hm=6d206bda36a25e217fa5253d6bdbe2547829e40f3f31d6a32f891f0298085a5c&')
+            .setAssetsSmallImage('https://i.imgur.com/AswzxJ8.jpeg')
 
             .setAssetsSmallText('TypeScript')
 
-            .addButton('Chess', 'https://github.com/Gaeuly')
+            .addButton('Github', 'https://github.com/Gaeuly')
 
-            .addButton('Join', 'https://gaeuly.my.id/');
+            .addButton('Mybed', 'https://gaeuly.my.id/');
 
         client.user.setActivity(rpc);
 
