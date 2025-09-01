@@ -10,6 +10,6 @@ module.exports = {
 
     enableRichPresence: true,
 
-    enableVoiceJoin: true,
+    enableVoiceJoin: false,
 
 };
