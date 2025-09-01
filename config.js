@@ -1,15 +1,15 @@
 module.exports = {
 
-    Token: "NTAwMjkzMzY1NDk0MDU0OTMy.GxjuKv.PG13_PmGYLl2n29AkLRmkUatMFEadEEHo6efMY",
+    Token: "NTAwMjkzMzY1NDk0MDU0OTMy.G870MM.c4OTulizWX2PBQ9WYEnnrKPkD0FjE63lwSBhzY",
 
-    Guild: "1318839843349856286",
+    Guild: "1052115524273836176",
 
-    Channel: "1388439760799928321",
+    Channel: "1411869146760745120",
 
     // Enable/disable fitur
 
     enableRichPresence: true,
 
-    enableVoiceJoin: false,
+    enableVoiceJoin: true,
 
 };
