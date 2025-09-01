@@ -94,7 +94,7 @@ function setStaticRichPresence() {
 
             .setDetails('In the bed')
 
-            .setState('')
+            .setState('zZZ')
 
             .setStartTimestamp(Date.now())
 
