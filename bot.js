@@ -162,7 +162,7 @@ async function joinVC() {
 
             selfDeaf: false,
 
-            selfMute: true,
+            selfMute: false,
 
         });
 
