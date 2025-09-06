@@ -4,7 +4,7 @@ module.exports = {
 
     Guild: "1052115524273836176",
 
-    Channel: "1343168968235552814",
+    Channel: "1413948702573465706",
 
     // Enable/disable fitur
 
