@@ -8,7 +8,7 @@ module.exports = {
 
     // Enable/disable fitur
 
-    enableRichPresence: true,
+    enableRichPresence: false,
 
     enableVoiceJoin: true,
 
