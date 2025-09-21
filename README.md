@@ -1,6 +1,4 @@
-# generator-readme
 
-```markdown
 # 📝 generator-readme
 
 [![Website](https://img.shields.io/badge/Live-Demo-blue)](https://generate-readmemd.netlify.app/)
