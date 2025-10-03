@@ -1,10 +1,10 @@
 module.exports = {
 
-    Token: "",
+    Token: "", //for productivity use .env
 
-    Guild: "1052115524273836176",
+    Guild: "",
 
-    Channel: "1413948702573465706",
+    Channel: "",
 
     // Enable/disable fitur
 
